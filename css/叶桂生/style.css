@@ -1,0 +1,1135 @@
+/*-------------------项目内容页样式开始 叶桂生-------------------- */
+
+/*-----------公用样式开始----------*/
+.fontColorOne {
+    color: #666;
+}
+.fontColorTwo {
+    color: #000;
+}
+.img_position {
+    position: absolute;
+    left: -6px;
+    top: -7px;
+}
+.thumb_position {
+    position: absolute;
+    left: 154px;
+    top: 12px;
+    padding-left: 26px;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    background: url('../images/project/pro_favor.png') no-repeat left center;
+}
+.store_share {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.default_color {
+    color: #000;
+    font-family: "黑体";
+}
+.note_color {
+    color: #c3361a;
+}
+.orange {
+    color: #f5810c;
+}
+.balance_status {
+    color: #007bb8;
+}
+.store_up {
+    margin:17px 0 18px 15px;
+    height: 24px;
+    line-height: 24px;
+}
+.store_other {
+    width: auto;
+    background: #fff;
+    text-align: left;
+}
+.store_downLine {
+    border-bottom: 1px solid #bbb;
+}
+
+.logo{
+    margin:21px 0 20px 3px;
+    padding-left: 9px;
+    border-left: 6px solid #000;
+    width: auto;
+    line-height: 24px;
+    font-size: 22px;
+}
+
+
+.store_buy {
+    margin-left: 7px;
+    background: #fff;
+}
+.store_money {
+    margin-right: 63px;
+}
+.store_money .store_progress {
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 29px;
+    width: 247px;
+    height: 8px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    box-shadow: 0 0 0 3px #e3e4e3;
+    font-size: 0;
+
+}
+.store_progress span {
+    display: inline-block;
+    width: 25%;
+    height: 8px;
+    border-radius: 4px;
+    background: #db4f33;
+}
+.store_percent {
+    display: inline-block;
+    width: 29px;
+    height: 30px;
+    line-height: 32px;
+    padding-left: 14px;
+    vertical-align: middle;
+    background: url('../images/project/pro_percent.png') no-repeat left center;
+}
+.store_price {
+    padding-top: 18px;
+    margin-left: 29px;
+    line-height: 22px;
+    text-align: center;
+}
+.store_price .store_detail {
+    color: #000;
+}
+.store_column {
+    width: 99px;
+}
+.store_column span {
+    font-family: "微软雅黑";
+}
+
+.store_financing {
+    position: relative;
+    padding: 7px 6px 9px 7px;
+    margin-left: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.store_financing .thumb_position {
+    left: 198px;
+}
+
+/*store_type*/
+
+ .store_type {
+    margin: 15px 0 23px 0;
+    border: 1px solid #ccc;
+}
+ .store_type li {
+    position: relative;
+    float: left;
+    width: 150px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+ .store_type .store_last {
+    width: 236px;
+    border-right: none;
+}
+ .store_type li a {
+    display: block;
+    padding: 18px 0;
+    font-size: 18px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+ .store_type li a img{
+    position: absolute;
+    left: 69px;
+    bottom: -6px;
+    display: none;
+}
+ .store_type .store_active {
+    color: #fff;
+    background: #db4f33;
+}
+ .store_type .store_active img{
+    display: block;
+    background: #db4f33;
+    display: block;
+}
+ .store_type .store_last {
+    background: url('../images/project/pro_weibo.png') no-repeat 20px 17px;
+}
+ .store_type .store_last a {
+    padding-left: 73px;
+    font-size: 16px;
+    text-align: left;
+}
+
+ .content_title {
+    position: relative;
+    margin-bottom: 80px;
+}
+ .content_title p {
+    line-height: 32px;
+     font-size: 14px;
+}
+ .content_title .topic_pos {
+    position: absolute;
+    right: -24px;
+    bottom: -70px;
+}
+ .financing_item {
+    line-height: 24px;
+}
+.financing_logo {
+    margin-right: 14px;
+}
+.content_financing a {
+    display: block;
+    width: 73px;
+    height: 21px;
+    line-height: 21px;
+    background: #f39c11;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/*-----------公用样式结束----------*/
+
+
+
+
+/*-----------------------店铺顶部 开始--------------------------- */
+#project_store {
+    background-color: #f9f9f9;
+}
+#project_store .store_top {
+    margin-bottom: 15px;
+}
+
+/*store_title*/
+
+#project_store .store_title .note {
+    margin: 19px 0 0 10px;
+    padding-right: 25px;
+    background: url('../images/project/pro_sound.png') left center no-repeat;
+    height: 27px;
+    line-height: 27px;
+}
+#project_store .store_title .note strong {
+    margin-left: 44px;
+}
+
+/*store_financing*/
+
+#project_store .store_info .store_number {
+    display: inline-block;
+    width: 27px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #e2900d;
+    font-weight: bold;
+    background: url('../images/project/pro_number.png') no-repeat;
+}
+#project_store .store_info .title {
+    margin-bottom: 21px;
+    padding-left: 23px;
+    width: 699px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f3f3f3;
+}
+#project_store .store_info p {
+    margin-left: 23px;
+}
+#project_store .store_info .store_up {
+    height: 47px;
+    line-height: 47px;
+    margin-bottom: 15px;
+}
+#project_store .store_share {
+    right: 57px;
+    bottom: 45px;
+}
+
+
+/*-----------------------店铺顶部 结束--------------------------- */
+
+
+/*-----------------------店铺头部 开始--------------------------- */
+
+
+
+
+#project_store .store_remain {
+    margin: 7px 0;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+    width: 251px;
+    height: 105px;
+    font-size: 16px;
+    line-height: 105px;
+    text-align: center;
+    color: #000;
+}
+#project_store .store_remain span {
+    color: #f39c11;
+    font-weight: bold;
+}
+#project_store .store_subscription{
+    width: 351px;
+    text-align: center;
+}
+#project_store .store_subscription p {
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 119px;
+    font-size: 16px;
+}
+#project_store .store_subscription a {
+    display: inline-block;
+    width: 105px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #f39c11;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+/*-----------------------店铺头部 结束--------------------------- */
+
+
+/*-----------------------店铺主体 开始--------------------------- */
+
+/*现有店*/
+#content_left>.fl {
+    display: none;
+}
+#content_left>div:first-child{
+    display: block;
+}
+#project_store .store_left .store_speed {
+    padding: 60px 0 40px 37px;
+    font-size: 16px;
+}
+
+#project_store .store_left .store_formal {
+    display: block;
+    margin: 0 auto 686px;
+    width: 151px;
+    height: 39px;
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    background: #feb34b;
+    color: #fff;
+}
+
+/*现有店登录*/
+
+#project_store .store_left .store_p {
+    margin: 24px 0 40px 13px;
+    line-height: 24px;
+    font-size: 16px;
+}
+#project_store .store_login {
+    width: 364px;
+    margin-right: 61px;
+    border-right: 1px dotted #ccc;
+}
+#project_store .store_login p{
+    margin: 0 0 22px 26px;
+}
+#project_store .store_login img {
+    vertical-align: -16px;
+    margin: 0 10px 0 8px;
+}
+#project_store .store_login input{
+    display: inline-block;
+    padding-left: 50px;
+    width: 234px;
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: "黑体";
+    font-size: 16px;
+}
+#project_store .store_login .store_validCode {
+    padding-left: 10px;
+    width: 122px;
+}
+#project_store .store_login .store_fresh {
+    font-size: 14px;
+    color: #000;
+}
+#project_store .store_login p:last-of-type input {
+    padding-left: 0;
+    width: 284px;
+    color: #fff;
+    background: #db4f33;
+    border-radius: 2px;
+    border: 1px solid #db4f33;
+}
+#project_store .store_login  .store_forget {
+    display: block;
+    margin:-12px 0 0 240px;
+    color: #666;
+    font-family: "黑体";
+    font-size: 14px;
+}
+#project_store .store_login .store_user input {
+    background: url('../images/project/pro_agent.png') no-repeat 17px center;
+}
+#project_store .store_login .store_password input {
+    background: url('../images/project/pro_lock.png') no-repeat 17px center;
+}
+
+/*现有店注册*/
+
+#project_store .store_signUp {
+    margin-right: 35px;
+}
+#project_store .store_signUp > p{
+    font-size: 16px;
+    font-family: "黑体";
+}
+#project_store .store_signUp .store_fast {
+    display: block;
+    margin: 20px 0 33px 0;
+    width: 143px;
+    height: 36px;
+    line-height: 36px;
+    background: #db4f33;
+    text-align: center;
+    color: #fff;
+    font-family: "黑体";
+    font-size: 16px;
+    border-radius: 2px;
+}
+#project_store .store_corperation {
+    background: #f5f5f5;
+    padding: 0 30px 12px 16px;
+}
+#project_store .store_corperation > p{
+    line-height: 40px;
+    font-family: "黑体";
+    font-size: 14px;
+}
+#project_store .store_corperation a {
+    margin: 0 5px;
+}
+
+
+/*已有店铺*/
+
+#project_store .store_left {
+    padding-bottom: 41px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    width: 647px;
+    background: #fff;
+}
+#project_store .store_shop {
+    position: relative;
+    padding: 5px 0 5px 7px;
+    margin: 0 10px 15px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+#project_store .store_left h3 {
+    margin:0 10px;
+    margin-bottom: 15px;
+    height: 49px;
+    line-height: 49px;
+}
+#project_store .store_about .store_title {
+    margin-left: 15px;
+    height: 28px;
+    line-height: 28px;
+}
+#project_store .store_about .store_up {
+    margin:17px 0 18px 15px;
+    width: 93px;
+    background: #feb34b;
+    text-align: center;
+}
+#project_store .store_about .store_other {
+    width: auto;
+    background: #fff;
+    text-align: left;
+}
+#project_store .store_about .store_up a{
+    display: block;
+    color: #fff;
+}
+#project_store .store_about .store_down {
+    padding: 6px 0 6px 15px;
+    width: 384px;
+    background: #f3f3f3;
+}
+#project_store .store_about .store_down a {
+    margin: 0 5px;
+    color: #878787;
+}
+#project_store .store_shop .store_share {
+    right: 12px;
+    bottom: 63px;
+}
+#project_store .store_shop .store_share a {
+    display: block;
+    padding-left: 40px;
+    width: 64px;
+    height: 28px;
+    line-height: 28px;
+    background: #a4a4a4 url('../images/project/pro_eye.png') no-repeat 11px center;
+    color: #fff;
+}
+
+#project_store .store_offline .store_other {
+    width: auto;
+    background: #fff;
+    text-align: left;
+}
+
+/*store_right*/
+
+#project_store .store_right {
+    padding-bottom: 41px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    width: 325px;
+    background: #fff;
+}
+#project_store .store_tip {
+    margin: 0 16px;
+    line-height: 24px;
+    color: #db4f33;
+}
+#project_store .store_verify {
+    font-size: 0;
+    text-align: center;
+}
+#project_store .store_verify span{
+    display: inline-block;
+    width: 162px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    background: #f3f3f3;
+    color: #000;
+    font-weight: bold;
+}
+#project_store .store_verify span:first-child {
+    border-right: 1px dotted #aeaeae;
+}
+#project_store .store_item {
+    margin: 0 20px 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ccc;
+}
+#project_store .store_item li {
+    height: 30px;
+    line-height: 30px;
+}
+#project_store .store_item .store_pass{
+    background: url('../images/project/pro_right.png') no-repeat 210px center;
+}
+#project_store .store_item .store_unpass{
+    background: url('../images/project/pro_wrong.png') no-repeat 210px center;
+}
+#project_store .store_announce {
+    margin: 0 15px;
+    line-height: 24px;
+}
+
+#project_store .store_help {
+    padding: 0 16px;
+}
+#project_store .store_help li {
+    /*height: 24px;*/
+    line-height: 24px;
+}
+#project_store .store_help li:first-child a {
+    color: #db4f33;
+}
+#project_store .store_help li a {
+    color: #000;
+}
+
+
+/*-----------------------店铺主体 结束--------------------------- */
+
+
+/*-------------------项目内容页样式结束 叶桂生-------------------- */
+
+
+
+
+/*--------------牛扒工厂(朝阳店)议事厅样式开始 叶桂生-------------- */
+
+        /*------------------主 体 开 始---------------- */
+
+#meeting {
+    background: #f9f9f9;
+    height: 1020px;
+}
+#meeting .title {
+    width: auto;
+}
+#meeting .content {
+    border: 1px solid #ccc;
+}
+
+/*左侧*/
+
+#meeting .content_left {
+    width: 733px;
+    background: #fff;
+    border-right: 1px solid #ccc;
+}
+#meeting .message_about {
+    margin-bottom: 25px;
+}
+#meeting .content_topic {
+    height: 69px;
+    line-height: 69px;
+    font-size: 16px;
+    text-align: center;
+}
+#meeting .portrait_left {
+    margin: 0 12px 0 10px;
+}
+#meeting .portrait_right {
+    margin: 0 10px 0 12px;
+}
+#meeting .content_message {
+    padding: 8px 20px 2px 24px;
+    width: 490px;
+    height: 73px;
+}
+#meeting .message_left {
+    background: url('../images/project/pro_formatl.png') no-repeat;
+}
+#meeting .message_right {
+    text-align: right;
+    background: url('../images/project/pro_formatr.png') no-repeat;
+}
+#meeting .username {
+    color: #f39c11;
+}
+#meeting .username img {
+    vertical-align: middle;
+}
+#meeting .content_message .username {
+    height: 22px;
+    line-height: 22px;
+}
+
+#meeting .content_message .message_detail {
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+#meeting .content_message .message_date {
+    height: 23px;
+    line-height: 23px;
+}
+
+#meeting .message_only {
+    background: #f2f2f2;
+    margin-bottom: 0;
+    padding-top: 23px;
+}
+#meeting .message_only .message_left {
+    background: url('../images/project/pro_submit.png') no-repeat;
+}
+#meeting .message_submit {
+    width: 95px;
+    margin: 12px 38px 13px 0;
+    height: 33px;
+    line-height: 33px;
+    background: #db4f33;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+/*右侧*/
+
+#meeting .content_right {
+    padding: 18px 12px 0 10px;
+    width: 242px;
+}
+#meeting .this_topic p{
+    line-height: 24px;
+    font-size: 14px;
+}
+#meeting .this_topic p a {
+    display: inline-block;
+    margin-left: 74px;
+    width: 111px;
+    height: 23px;
+    border: 2px solid #ccc;
+    text-align: center;
+    border-radius: 3px;
+}
+#meeting .this_topic>a{
+    line-height: 37px;
+    font-size: 16px;
+}
+
+#meeting .content_right .this_topic {
+    margin-top: 14px;
+    border-bottom: 1px solid #ccc;
+}
+#meeting .content_right .sponser {
+    position: relative;
+    margin-top: 87px;
+    line-height: 20px;
+    font-size: 14px;
+
+}
+#meeting .content_right .sponser a {
+    margin: 0 15px 0 19px;
+}
+#meeting .content_right .sponser .member_pos {
+    position: absolute;
+    right: -24px;
+    top: -55px;
+
+}
+#meeting .content_right .sponser span{
+    color: #de644b;
+}
+#meeting .content_right .member_detail li{
+    float: left;
+    width: 80px;
+    text-align: center;
+}
+
+
+/*--------------牛扒工厂(朝阳店)议事厅样式结束 叶桂生------------- */
+
+
+
+/*----------------------确认认购样式开始 叶桂生-----------------*/
+#subscription .store_financing {
+    padding: 0;
+}
+#subscription .subscription_message {
+    margin-bottom: 18px;
+    padding-left: 20px;
+    height: 38px;
+    line-height: 38px;
+    background: #f2f2f2;
+    font-size: 16px;
+}
+#subscription .factory_info {
+    margin-bottom: 38px;
+}
+#subscription .factory_title {
+    margin: 0 0 22px  307px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+#subscription .factory_logo {
+    margin-left: 23px;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+#subscription .store_factory {
+    margin-left: 11px;
+    padding-right: 45px;
+    width: 250px;
+    height: 95px;
+    line-height: 24px;
+    font-size: 14px;
+    border-right: 1px dotted #ccc;
+}
+#subscription .subscription_price {
+    margin: 18px 0 36px 0;
+    text-align: center;
+    font-size: 14px;
+}
+#subscription .subscription_price input {
+    width: 284px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+}
+#subscription .contact_detail {
+    padding-top: 14px;
+}
+#subscription .contact_detail .subscription_price {
+    margin: 0 0 19px 0;
+    text-align: left;
+}
+#subscription .contact_detail .subscription_price .postcode:first-letter {
+    color: red;
+}
+#subscription .subscription_contact {
+    position: relative;
+    padding: 0 0 22px 24px;
+    line-height: 26px;
+}
+#subscription .subscription_contact .new_contact {
+    position: absolute;
+    right: 28px;
+    top: 70px;
+    width: 123px;
+    height: 22px;
+    line-height: 22px;
+    background: #f39c11;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+#subscription .contact_detail {
+    margin-left: 24px;
+}
+#subscription .contact_save {
+    display: block;
+    margin: 23px 0 44px 74px;
+    width: 107px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #f39c11;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 2px;
+}
+#subscription .subscription_pay p{
+    text-align: center;
+    height: 79px;
+    line-height: 79px;
+    margin-bottom: 7px;
+}
+#subscription .subscription_pay span {
+    color: #f48f56;
+    font-size: 16px;
+}
+#subscription .subscription_pay a {
+    display: block;
+    width: 140px;
+    height: 36px;
+    margin: 0 auto 42px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    background: #dc553a;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+
+
+/*----------------------确认认购样式结束 叶桂生-----------------*/
+
+
+/*--------------牛扒工厂(朝阳店)融资管理 样式开始 叶桂生------------- */
+
+/*-----------------融资管理--公用样式开始-------------------*/
+
+.investor_detail {
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    background: #f5f5f5;
+    font-size: 0;
+}
+.investor_detail span {
+    display: inline-block;
+    width: 199px;
+    text-align: center;
+    font-size: 14px;
+}
+.investor_detail .investor {
+    width: 202px;
+}
+
+/*-----------------融资管理--公用样式结束-------------------*/
+
+#financing_management .management {
+    margin-bottom: 80px;
+}
+#financing_management .financing_manage{
+    border: 1px solid #ccc;
+}
+#financing_management .manage_status {
+    border-bottom: 1px solid #ccc;
+}
+#financing_management .manage_logo {
+    padding: 22px 23px 28px 17px;
+    width: 620px;
+    border-right: 1px solid #ccc;
+}
+#financing_management .manage_logo a {
+    margin-right: 2px;
+}
+#financing_management .financing_info {
+    padding: 12px 0 0 20px;
+    width: 519px;
+    height: 67px;
+    line-height: 24px;
+    font-size: 14px;
+    background: url('../images/project/pro_status.png') no-repeat;
+}
+#financing_management .financing_note {
+    padding: 29px 23px 0;
+    width: 285px;
+    line-height: 24px;
+    font-size: 14px;
+}
+#financing_management .financing_status {
+    margin-right: 43px;
+}
+#financing_management .balance {
+    margin-right: 35px;
+}
+#financing_management .financing_record {
+    text-align: center;
+    font-size: 0;
+    border-bottom: 1px solid #ccc;
+}
+#financing_management .financing_record a {
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+#financing_management .financing_record a:first-child {
+    border-left: 1px solid #ccc;
+}
+#financing_management .financing_record .record_active{
+    background: #e06951;
+    color: #fff;
+}
+#financing_management .financing_record .last_record{
+    border-right: 1px solid #ccc;
+}
+
+/*融资记录*/
+
+#financing_management .investor_main {
+    height: 114px;
+    line-height: 114px;
+}
+#financing_management .investor_main .investor a{
+    position: absolute;
+    left: 29px;
+    top: 22px;
+    vertical-align: center;
+}
+#financing_management .investor_main .investor span{
+    margin-left: 35px;
+}
+#financing_management .investor_odd {
+    background: #fff;
+}
+#financing_management .financing_page {
+    font-size: 0;
+    text-align: center;
+}
+
+#financing_management .financing_page a {
+    display: inline-block;
+    margin: 0 5px;
+    width: 28px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #d8d8d8;
+}
+#financing_management .financing_page .page_active {
+    background: #666;
+    color: #fff;
+}
+#financing_management .financing_page .page_order {
+    width: 70px;
+    height: 26px;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+}
+
+/*资金支取记录*/
+
+/*资金支取信息提示*/
+#financing_management .withdraw_note {
+    font-size: 14px;
+}
+#financing_management .withdraw_note a {
+    margin: 70px 21px 0;
+    width: 201px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    color: #fff;
+    background: #feb34b;
+    border: 1px solid #ffe0af;
+    font-size: 16px;
+}
+#financing_management .withdraw_detail {
+    padding: 35px 0 20px 25px;
+    width: 722px;
+    line-height: 24px;
+}
+
+/*资金支取明细*/
+
+#financing_management .fund_withdraw,  #financing_management .withdraw_note{
+    display: none;
+}
+#financing_management .fund_withdraw .withdraw_main span {
+    width: 166px;
+}
+#financing_management .fund_withdraw .withdraw_main .withdraw_times {
+    width: 168px;
+}
+#financing_management .fund_detail {
+    position: absolute;
+    display: none;
+    right: 23px;
+    top: 28px;
+    width: 201px;
+    height: 62px;
+    line-height: 62px;
+    font-size: 14px;
+    text-align: center;
+    background: url('../images/project/pro_detail.png') no-repeat;
+}
+#financing_management .fund_active {
+    display: block;
+}
+
+
+
+
+/*--------------牛扒工厂(朝阳店)融资管理 样式结束 叶桂生------------- */
+
+
+
+/*--------------牛扒工厂(朝阳店)财务管理 样式开始 叶桂生------------- */
+
+#finance {
+    margin-bottom: 85px;
+}
+#finance .store_type {
+    margin-top: 0;
+}
+
+/* 左侧-往期财报 / 分红管理 */
+#finance .finance_report {
+    width: 653px;
+    border: 1px solid #ccc;
+}
+#finance .publish {
+   display: block;
+    margin: 33px auto 30px;
+    width: 193px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    background: #feb34b;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #ffebcf;
+}
+#finance .finance_past {
+    padding-bottom: 59px;
+}
+#finance .finance_past dt{
+    padding-left: 22px;
+    height: 40px;
+    line-height: 40px;
+    background: #f8f8f9;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    border-bottom: 1px solid #e9eaec;
+}
+#finance .finance_past dd {
+    padding-left: 14px;
+    margin-left: 9px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 14px;
+    border-top: 1px dotted #aaa;
+}
+#finance .finance_past dd:nth-of-type(1) {
+    border-top: 1px dotted transparent;
+}
+#finance .satisfaction {
+    margin-left: 67px;
+}
+.finance_dividend {
+    display: none;
+}
+
+/*财务数据管理*/
+
+#finance .finance_data {
+    display: none;
+    padding: 45px 35px 192px 49px;
+    border: 1px solid #ccc;
+}
+
+
+/*右侧-投资人相关*/
+#finance .finance_about .content_title{
+    padding: 22px 0 22px 22px;
+    margin-bottom: 20px;
+    width: 303px;
+    border: 1px solid #ccc;
+}
+#finance .invest_member {
+    padding: 10px 11px 20px;
+    width: 303px;
+    border: 1px solid #ccc;
+}
+#finance .invest_member h2 {
+    line-height: 39px;
+    border-bottom: 1px solid #ccc;
+}
+#finance .founder a{
+    margin: 14px 0 0 2px;
+}
+#finance .info_detail {
+    margin: 13px 30px 13px 15px;
+    line-height: 26px;
+}
+#finance .info_detail span {
+    color: #db4f33;
+}
+
+
+
+/*--------------牛扒工厂(朝阳店)财务管理 样式结束 叶桂生------------- */
+
+
+/*------------------主 体 结 束---------------- */
